@@ -24,14 +24,14 @@ var APP_DATA = {
       ],
       "faceSize": 1285,
       "initialViewParameters": {
-        "yaw": 1.3378582252995077,
         "pitch": 0,
-        "fov": 1.3843012993600772
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.40615237949801397,
-          "pitch": 0.23920363421403223,
+          "yaw": 0.0014500676997357687,
+          "pitch": 0,
           "rotation": 0,
           "target": "1-frdtejnpan3d"
         }
@@ -66,30 +66,45 @@ var APP_DATA = {
       ],
       "faceSize": 3927,
       "initialViewParameters": {
-        "yaw": 0.0006164689999987871,
+        "yaw": 0.11613381940113854,
         "pitch": 0,
         "fov": 1.3843012993600772
       },
       "linkHotspots": [
         {
-          "yaw": -1.0587098522124272,
-          "pitch": 0,
+          "yaw": 0.12493303471084971,
+          "pitch": -0.002246495364932599,
           "rotation": 0,
-          "target": "0-frdtejnpan3d14"
-        },
-        {
-          "yaw": 3.0155801477851902,
-          "pitch": 0,
-          "rotation": 0,
-          "target": "0-frdtejnpan3d14"
-        },
-        {
-          "yaw": 3.0161920138853606,
-          "pitch": 0,
-          "rotation": 0,
-          "target": "0-frdtejnpan3d14"
+          "target": "2-frdtejnpan3d12"
         }
       ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-frdtejnpan3d12",
+      "name": "FrýdštejnPan3D12",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 808,
+      "initialViewParameters": {
+        "yaw": 0.003944099099790321,
+        "pitch": 0,
+        "fov": 1.3843012993600772
+      },
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
